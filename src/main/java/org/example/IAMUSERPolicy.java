@@ -21,7 +21,7 @@ public class IAMUSERPolicy {
             iamClient.close();
         }catch (IamException e)
         {
-
+          System.out.println(e.getStackTrace());
         }
 
     }
